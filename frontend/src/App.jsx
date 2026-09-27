@@ -216,7 +216,7 @@ function App() {
     <div className="page-shell">
       <header className="hero-header">
         <div className="header-topline"><span className="brand-mark">✿</span> DUO VIBE CHECK</div>
-        <h1>A little game for your <span>favorite people</span></h1>
+        <h1>A little game for your <span>favorite people "kizuu"</span></h1>
         <p>Pick your people. Make a little prediction. 🎈</p>
         <div className="mini-note">Just for fun. It’s a name game, not a real compatibility score.</div>
       </header>
@@ -238,7 +238,7 @@ function App() {
             </label>
             <label className={matchMode === 'ROMANTIC' ? 'mode-choice selected' : 'mode-choice'}>
               <input type="radio" name="match-mode" checked={matchMode === 'ROMANTIC'} onChange={() => setMatchMode('ROMANTIC')} />
-              <span>❤️ Romantic</span>
+              <span>❤️ Match Mode</span>
             </label>
           </div>
           {matchMode === 'ROMANTIC' && (
